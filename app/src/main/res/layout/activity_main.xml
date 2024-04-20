@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/x_angle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X: 0°"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/y_angle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y: 0°"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/z_angle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Z: 0°"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_show_graph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Graph" />
+
+    <Button
+        android:id="@+id/button_export_csv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Export to CSV"/>
+
+    <Spinner
+        android:id="@+id/spinner_sensor_delay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
