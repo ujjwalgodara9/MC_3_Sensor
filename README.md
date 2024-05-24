@@ -26,4 +26,4 @@ Ujjwal Godara, IIIT Delhi Student, Mobile Computing Course 2024
 ## Installation
 1. Clone the repository:
   
-   git clone https://github.com/ujjwal-godara/real-time-orientation-app.git
+   git clone https://github.com/ujjwalgodara9/Real-Time-Orientation-App
