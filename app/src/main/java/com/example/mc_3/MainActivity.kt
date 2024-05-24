@@ -42,38 +42,6 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
         private const val REQUEST_WRITE_STORAGE = 1
     }
 
-//    override fun onCreate(savedInstanceState: Bundle?) {
-//        super.onCreate(savedInstanceState)
-//        binding = ActivityMainBinding.inflate(layoutInflater)
-//        setContentView(binding.root)
-//
-//        viewModel = ViewModelProvider(this).get(OrientationViewModel::class.java)
-//
-//        sensorManager = getSystemService(SENSOR_SERVICE) as SensorManager
-//        accelerometerSensor = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER)!!
-//        magneticFieldSensor = sensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD)!!
-//
-//        sensorManager.registerListener(this, accelerometerSensor, SensorManager.SENSOR_DELAY_NORMAL)
-//        sensorManager.registerListener(this, magneticFieldSensor, SensorManager.SENSOR_DELAY_NORMAL)
-//
-//        Log.d("tag","before error")
-//
-//        val button = findViewById<Button>(R.id.button_show_graph)
-//        button.setOnClickListener {
-//            Log.d("tag","after button  error")
-//            val intent = Intent(this, GraphActivity::class.java)
-//
-//            Log.d("tag","after button 2 error")
-//            startActivity(intent)
-//            Log.d("tag","after button 3 error")
-//        }
-//
-//        findViewById<Button>(R.id.button_export_csv).setOnClickListener {
-//            exportDataToCSV()
-//        }
-//
-//    }
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
